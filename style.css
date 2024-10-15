@@ -9,8 +9,7 @@
   margin-right: 80px;
   padding-top: 24px;
   padding-bottom: 19px;
-  display: flex;
-  justify-content: flex-start;
   gap: 100px;
   height: 42px;
+  display: flex;
 }
