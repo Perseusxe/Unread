@@ -1,3 +1,6 @@
+* {
+  font-family: sans-serif;
+}
 .hero-sheet {
   height: 100vh;
   width: 100%;
@@ -15,9 +18,42 @@
 }
 .Socials {
   opacity: 40%;
-  height: 40px;
-  width: 40px;
+  size: 60px;
+  margin-right: auto;
+  margin-left: auto;
 }
-* {
-  font-family: sans-serif;
+.Social-size {
+  width: 20px;
+  height: 20px;
+}
+.Cover {
+  width: 446.4px;
+  height: 446.4px;
+  padding: 40px;
+  border-radius: 30px;
+  background-image: url(Cover.png);
+  background-size: 120%;
+  transition: all 0.5s;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.Cover:hover {
+  background-size: 130%;
+}
+.Cover-Right {
+  width: 1116px;
+}
+.Cover-Bottom {
+  font-size: 35px;
+}
+.Name {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  margin-left: 5px;
+}
+.Main {
+  width: 100%;
+  height: 327px;
+  background-color: #000000;
 }
