@@ -8,24 +8,33 @@
     url(https://unread.today/files/007afc64-288a-4208-b9d7-3eda84011c1d/1451f11e03da76480966b636a622119a.jpg);
 }
 .header {
-  margin-left: 80px;
-  margin-right: 80px;
+  padding-left: 80px;
+  padding-right: 80px;
   padding-top: 24px;
   padding-bottom: 19px;
-  gap: 100px;
+
   height: 42px;
   display: flex;
+  justify-content: space-between;
+}
+.header-left {
+  display: flex;
+  align-items: center;
+}
+.header-right {
+  display: flex;
+  align-items: center;
 }
 .Socials {
   opacity: 40%;
   size: 60px;
-  margin-right: auto;
-  margin-left: auto;
+  display: flex;
+  height: 15px;
 }
-.Social-size {
-  width: 20px;
-  height: 20px;
+.Social-1 {
+  margin-left: 10px;
 }
+
 .uk-container-center {
   display: flex;
   margin-left: auto;
