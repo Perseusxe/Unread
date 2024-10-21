@@ -1,5 +1,7 @@
 * {
   font-family: sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
 .hero-sheet {
@@ -129,10 +131,12 @@
 }
 
 .uk-container {
+  margin: 0 auto;
   padding-top: 300px;
-  background-color: #fafafa;
-  margin-left: auto;
-  margin-right: auto;
+  max-width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }
 
 .uk-overlay-hover {
@@ -145,6 +149,7 @@
   padding-top: 28px;
   padding-right: 65px;
   padding-bottom: 20px;
+  display: flex;
 }
 
 .uk-overlay-hover1 {
@@ -153,5 +158,25 @@
   margin-top: 10px;
   border-radius: 2.7rem 0 2.7rem 2.7rem;
   box-shadow: 0px 0px 50px 4px rgba(209, 209, 209, 0.8);
-  margin-left: 500px;
+  padding-left: 65px;
+  padding-top: 28px;
+  padding-right: 51px;
+  padding-bottom: 20px;
+  display: flex;
+}
+
+.article-right {
+  align-self: flex-end;
+}
+.author {
+  display: flex;
+}
+.author-right {
+  flex-direction: row-reverse;
+  text-align: end;
+}
+.article-image {
+  width: 135px;
+  height: 135px;
+  border-radius: 100px;
 }
