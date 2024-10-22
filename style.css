@@ -3,6 +3,17 @@
   margin: 0;
   padding: 0;
 }
+.blink {
+  animation: blinker 1.5s linear infinite;
+  color: #0078f6;
+  margin-bottom: 20px;
+}
+
+@keyframes blinker {
+  50% {
+      opacity: 0;
+  }
+}
 
 .hero-sheet {
   height: 65vh;
@@ -133,7 +144,7 @@
 .uk-container {
   margin: 0 auto;
   padding-top: 300px;
-  max-width: 50%;
+  max-width: 60%;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -170,6 +181,7 @@
 }
 .author {
   display: flex;
+  margin-top: 30px;
 }
 .author-right {
   flex-direction: row-reverse;
