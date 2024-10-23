@@ -427,6 +427,9 @@
   width: 323px;
   border-radius: 18px;
   display: flex;
+  transition: all 0.3s;
+} .footer-box:hover {
+  transform: translateX(0.6rem);
 }
 .slider-nav1 {
   width: 36px;
@@ -473,10 +476,17 @@ li {
 .dot {
   margin-bottom: 46px;
   color: white;
+  transition: all 0.3s;
+} .dot:hover {
+  color: grey;
 }
 .category {
   color: grey;
   margin-top: 9px;
   font-size: small;
+  transition: all 0.3s;
+} .category:hover {
+  transform: translateX(0.3rem);
+  color: white;
 }
 
