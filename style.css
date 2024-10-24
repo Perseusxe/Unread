@@ -428,7 +428,8 @@
   border-radius: 18px;
   display: flex;
   transition: all 0.3s;
-} .footer-box:hover {
+}
+.footer-box:hover {
   transform: translateX(0.6rem);
 }
 .slider-nav1 {
@@ -440,11 +441,12 @@
   justify-content: center;
   align-items: center;
   background-color: black;
-} 
-.slider-nav-outline{
-  border-radius: 50%; padding: 10px;
 }
-.slider-nav-outline:hover{
+.slider-nav-outline {
+  border-radius: 50%;
+  padding: 10px;
+}
+.slider-nav-outline:hover {
   background-color: #0077f645;
 }
 
@@ -478,7 +480,8 @@ li {
   margin-bottom: 46px;
   color: white;
   transition: all 0.3s;
-} .dot:hover {
+}
+.dot:hover {
   color: grey;
 }
 .category {
@@ -486,13 +489,13 @@ li {
   margin-top: 9px;
   font-size: small;
   transition: all 0.3s;
-  
-} .category:hover {
+}
+.category:hover {
   transform: translateX(0.3rem);
   color: white;
 }
 .location {
-  color: grey; 
+  color: grey;
   font-size: small;
   margin-top: 9px;
 }
@@ -502,42 +505,44 @@ li {
 .footer-social {
   width: 70%;
   display: flex;
- justify-content: space-between;
+  justify-content: space-between;
   margin-left: auto;
   margin-right: auto;
   margin-top: 100px;
 }
 .social-fb path {
-  fill:grey;
-  
-} .social-fb path:hover {
+  fill: grey;
+}
+.social-fb :hover path{
   fill: #475993;
 }
 .social-tw path {
   fill: grey;
-  
-} .social-tw path:hover {
-  fill:#1da2f2
+}
+.social-tw:hover path {
+  fill: #1da2f2;
 }
 .social-ig path {
   fill: grey;
-  
-} .social-ig path:hover {
-fill: aqua;
+}
+.social-ig:hover path {
+  fill: aqua;
 }
 .social-li path {
   fill: grey;
-  
-} .social-li path:hover {
+}
+.social-li:hover path{
   fill: #0078f6;
 }
 .social-yt path {
   fill: grey;
-} .social-yt path:hover {
+}
+.social-yt:hover path {
   fill: #ff2500;
 }
-.social-sc path{
+.social-sc path {
   fill: grey;
-} .social-sc path:hover {
+}
+.social-sc :hover path{
   fill: #f50;
 }
