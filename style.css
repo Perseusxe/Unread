@@ -44,10 +44,10 @@
 }
 
 .Socials {
-  opacity: 40%;
   size: 60px;
   display: flex;
   height: 15px;
+  margin-left: 10px;
 }
 
 .Social-1 {
@@ -472,6 +472,7 @@ li {
 }
 .footer-right-bottom {
   margin-top: 20px;
+  display: flex;
 }
 .dot {
   margin-bottom: 46px;
@@ -485,8 +486,58 @@ li {
   margin-top: 9px;
   font-size: small;
   transition: all 0.3s;
+  
 } .category:hover {
   transform: translateX(0.3rem);
   color: white;
 }
-
+.location {
+  color: grey; 
+  font-size: small;
+  margin-top: 9px;
+}
+.footer-text {
+  padding-left: 28px;
+}
+.footer-social {
+  width: 70%;
+  display: flex;
+ justify-content: space-between;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+}
+.social-fb path {
+  fill:grey;
+  
+} .social-fb path:hover {
+  fill: #475993;
+}
+.social-tw path {
+  fill: grey;
+  
+} .social-tw path:hover {
+  fill:#1da2f2
+}
+.social-ig path {
+  fill: grey;
+  
+} .social-ig path:hover {
+fill: aqua;
+}
+.social-li path {
+  fill: grey;
+  
+} .social-li path:hover {
+  fill: #0078f6;
+}
+.social-yt path {
+  fill: grey;
+} .social-yt path:hover {
+  fill: #ff2500;
+}
+.social-sc path{
+  fill: grey;
+} .social-sc path:hover {
+  fill: #f50;
+}
